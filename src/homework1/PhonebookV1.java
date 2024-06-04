@@ -7,8 +7,8 @@ public class PhonebookV1 {
 
     public static void main(String[] args) {
         // Specify the absolute path to your CSV file
-        String inputFilePath = ;
-        String outputFilePath = ;
+        String inputFilePath = "C:\\Users\\38762\\Downloads\\raw_phonebook_data.csv";
+        String outputFilePath = "C:\\Users\\38762\\Downloads\\sorted_phonebook_data.csv";
 
         try {
             Entry[] entries = FileUtils.readFile(inputFilePath);
